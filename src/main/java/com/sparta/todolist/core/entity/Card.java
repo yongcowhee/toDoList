@@ -1,7 +1,7 @@
-package com.sparta.todolist.entity;
+package com.sparta.todolist.core.entity;
 
-import com.sparta.todolist.dto.CardCreateRequestDto;
-import com.sparta.todolist.dto.CardEditRequestDto;
+import com.sparta.todolist.core.dto.CardCreateRequestDto;
+import com.sparta.todolist.core.dto.CardEditRequestDto;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

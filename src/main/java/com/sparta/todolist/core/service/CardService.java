@@ -1,15 +1,14 @@
-package com.sparta.todolist.service;
+package com.sparta.todolist.core.service;
 
-import com.sparta.todolist.dto.*;
-import com.sparta.todolist.entity.Card;
-import com.sparta.todolist.entity.User;
+import com.sparta.todolist.core.dto.*;
+import com.sparta.todolist.core.entity.Card;
+import com.sparta.todolist.core.entity.User;
+import com.sparta.todolist.core.repository.CardRepository;
+import com.sparta.todolist.core.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import com.sparta.todolist.repository.CardRepository;
-import com.sparta.todolist.repository.UserRepository;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service

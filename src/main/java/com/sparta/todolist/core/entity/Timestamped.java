@@ -1,4 +1,4 @@
-package com.sparta.todolist.entity;
+package com.sparta.todolist.core.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -1,12 +1,10 @@
-package com.sparta.todolist.controller;
+package com.sparta.todolist.core.controller;
 
-import com.sparta.todolist.dto.*;
+import com.sparta.todolist.core.dto.*;
+import com.sparta.todolist.core.service.CardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import com.sparta.todolist.service.CardService;
-
-import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
