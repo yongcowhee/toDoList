@@ -1,9 +1,9 @@
-package entity;
+package com.sparta.todolist.entity;
 
 import jakarta.persistence.*;
 
 @Entity
-public class Comment {
+public class Comment extends Timestamped{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long commentId;
