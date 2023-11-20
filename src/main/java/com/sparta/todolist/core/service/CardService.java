@@ -68,6 +68,7 @@ public class CardService {
         cardRepository.delete(card);
     }
 
+    // 카드 완료처리
     public void updateCardCompletion(Long cardId) {
         Card card = cardRepository.findById(cardId).orElseThrow(()->
                 new IllegalArgumentException("존재하지 않는 할일카드 입니다."));
